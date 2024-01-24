@@ -1,0 +1,37 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"f1QbYZT3Q-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rare Systems Support Portal</span>\",\"col\":12}},{\"id\":\"r34fx3sScp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HJfcC8_0CP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Support Calls\",\"col\":3}}]",
+ "creation": "2024-01-23 18:47:26.371147",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Rare Systems Support Portal",
+ "links": [],
+ "modified": "2024-01-24 11:05:43.676326",
+ "modified_by": "Administrator",
+ "module": "Support System",
+ "name": "Rare Systems Support Portal",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 24.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "Report Builder",
+   "label": "Support Calls",
+   "link_to": "Support Calls",
+   "type": "DocType"
+  }
+ ],
+ "title": "Rare Systems Support Portal"
+}
