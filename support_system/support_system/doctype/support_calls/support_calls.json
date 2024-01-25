@@ -1,6 +1,5 @@
 {
  "actions": [],
- "allow_rename": 1,
  "autoname": "format:RS-{DD}{MM}{YYYY}-{####}",
  "creation": "2024-01-21 21:56:33.968058",
  "doctype": "DocType",
@@ -9,10 +8,12 @@
   "request_date",
   "customer",
   "request_type",
-  "request",
+  "request_details",
+  "attachments",
   "support_engineer",
   "status",
-  "action_details"
+  "action_details",
+  "history_log"
  ],
  "fields": [
   {
@@ -20,14 +21,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Customer",
-   "options": "Customer",
-   "reqd": 1
-  },
-  {
-   "fieldname": "request",
-   "fieldtype": "Small Text",
-   "in_list_view": 1,
-   "label": "Request Details",
+   "options": "Support Customer",
    "reqd": 1
   },
   {
@@ -65,10 +59,29 @@
    "in_list_view": 1,
    "label": "Action Details",
    "mandatory_depends_on": "eval:(doc.status != \"Assigned\" && doc.status != \"Closed\");"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach Image",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "request_details",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Request Details",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "history_log",
+   "fieldtype": "Long Text",
+   "label": "History Log",
+   "read_only": 1
   }
  ],
  "links": [],
- "modified": "2024-01-24 12:22:37.201960",
+ "modified": "2024-01-24 18:16:28.169741",
  "modified_by": "Administrator",
  "module": "Support System",
  "name": "Support Calls",
@@ -107,5 +120,7 @@
    "color": "Green",
    "title": "Closed"
   }
- ]
+ ],
+ "track_changes": 1,
+ "track_views": 1
 }
