@@ -65,7 +65,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-24 15:23:41.445575",
+ "modified": "2024-01-29 16:48:39.364331",
  "modified_by": "Administrator",
  "module": "Support System",
  "name": "Support Customer",
@@ -81,6 +81,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Support system user",
    "share": 1,
    "write": 1
   }

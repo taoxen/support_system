@@ -81,7 +81,7 @@
   }
  ],
  "links": [],
- "modified": "2024-01-25 11:59:31.404187",
+ "modified": "2024-01-29 16:48:13.157427",
  "modified_by": "Administrator",
  "module": "Support System",
  "name": "Support Calls",
@@ -97,6 +97,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Support system user",
    "share": 1,
    "write": 1
   }

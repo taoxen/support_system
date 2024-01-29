@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"f1QbYZT3Q-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rare Systems Support Portal</span>\",\"col\":12}},{\"id\":\"r34fx3sScp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HJfcC8_0CP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Support Calls\",\"col\":3}}]",
+ "content": "[{\"id\":\"f1QbYZT3Q-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rare Systems Support Portal</span>\",\"col\":12}},{\"id\":\"r34fx3sScp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HJfcC8_0CP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Support Calls\",\"col\":3}},{\"id\":\"-Ac88T124b\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Calls\",\"col\":3}},{\"id\":\"C3y8zC5m05\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calls Logged Yesterday\",\"col\":3}},{\"id\":\"nwt9Y23Wfr\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"O-7ViQeFMM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Support Call Count\",\"col\":4}},{\"id\":\"R-WpfsuzSm\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Calls Count\",\"col\":4}},{\"id\":\"R28xATJh-h\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No Action Yet\",\"col\":4}}]",
  "creation": "2024-01-23 18:47:26.371147",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,11 +13,24 @@
  "is_hidden": 0,
  "label": "Rare Systems Support Portal",
  "links": [],
- "modified": "2024-01-24 11:05:43.676326",
+ "modified": "2024-01-29 18:35:24.939497",
  "modified_by": "Administrator",
  "module": "Support System",
  "name": "Rare Systems Support Portal",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Open Support Call Count",
+   "number_card_name": "Open Support Call Count"
+  },
+  {
+   "label": "No Action Yet",
+   "number_card_name": "No Action Yet"
+  },
+  {
+   "label": "Pending Calls Count",
+   "number_card_name": "Pending Calls Count"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
@@ -27,10 +40,24 @@
  "shortcuts": [
   {
    "color": "Grey",
+   "doc_view": "List",
+   "label": "Pending Calls",
+   "link_to": "Calls Pending",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
    "doc_view": "Report Builder",
    "label": "Support Calls",
    "link_to": "Support Calls",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Calls Logged Yesterday",
+   "link_to": "Calls Yesterday",
+   "type": "Report"
   }
  ],
  "title": "Rare Systems Support Portal"
